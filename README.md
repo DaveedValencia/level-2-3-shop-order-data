@@ -15,7 +15,7 @@ Hybrid testing: Shopify (live store in test mode) → Authorize.net (sandbox env
 - **Store Type:** Production store (test mode enabled)
 - **Checkout Settings:** Manual capture (authorize only)
 - **PO Number Source:** Cart note (`order.note`)
-- **Webhook Trigger:** [Shopwaive Action](https://apps.shopify.com/shopwaive-action)
+- **Webhook Trigger:** [Shopwaive Action](https://apps.shopify.com/shopwaive)
   - Trigger: `Order Created`
   - Action: `POST to Flask webhook`
 
@@ -75,7 +75,3 @@ Hybrid testing: Shopify (live store in test mode) → Authorize.net (sandbox env
 - [ ] Optional: Store logs in SQLite or Azure Table Storage
 
 ---
-
-## 📁 Repository Integration
-
-You can use this file as a `README.md` in a dedicated GitHub repository to document your workflow, share with collaborators, or guide production implementation.
